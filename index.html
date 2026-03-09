@@ -2,38 +2,40 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initialv-scale=1.0">
     <title>Jeimy Cáceres – Desarrolladora Web</title>
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
-<script src="js/main.js"></script>
+
 </head>
 <body>
 
-    <!-- NAVEGACIÓN -->
-        <nav class="navbar">
-            <div class="nav-logo">
-                <img src="img/Logo.png" alt="J.Rubyk">
-                </div>
-            <ul class="nav-links">
-                <li><a href="#inicio">Inicio</a></li>
-                <li><a href="#sobre-mi">Sobre mí</a></li>
-                <li><a href="#habilidades">Habilidades</a></li>
-                <li><a href="#proyectos">Proyectos</a></li>
-                <li><a href="#contacto">Contacto</a></li>
-            </ul>
-            <!-- 👇 AGREGA ESTO -->
-            <div class="nav-social">
-                <a href="https://github.com/JRubyk" target="_blank" class="nav-social-btn">
-                <i class="devicon-github-original"></i>
-                </a>
-                <a href="https://www.linkedin.com/in/jeimy-caceres-rubio/" target="_blank" class="nav-social-btn nav-social-li">
-                <i class="devicon-linkedin-plain colored"></i>
-                </a>
-            </div>
-            </nav>
-    </nav>
-
+<!-- NAVEGACIÓN -->
+<nav class="navbar">
+    <div class="nav-logo">
+        <img src="img/Logo.png" alt="J.Rubyk">
+    </div>
+    <ul class="nav-links" id="navLinks">
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#sobre-mi">Sobre mí</a></li>
+        <li><a href="#habilidades">Habilidades</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+    </ul>
+    <div class="nav-social">
+        <a href="https://github.com/JRubyk" target="_blank" class="nav-social-btn">
+            <i class="devicon-github-original"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/jeimy-caceres-rubio/" target="_blank" class="nav-social-btn nav-social-li">
+            <i class="devicon-linkedin-plain colored"></i>
+        </a>
+    </div>
+    <button class="nav-hamburger" id="navHamburger" aria-label="Menú">
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
+</nav>
     <!-- HERO -->
     <section id="hero" class="hero">
         <div class="hero-bg"></div>
@@ -311,5 +313,6 @@
   ↑
 </button>
 <div id="hojasContainer"></div>
+<script src="js/main.js"></script>
 </body>
 </html>
