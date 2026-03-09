@@ -1085,3 +1085,27 @@ body::before {
   0%   { transform: translate(0,0) rotate(0deg); opacity: 1; }
   100% { transform: translate(var(--dx), var(--dy)) rotate(720deg); opacity: 0; }
 }
+
+/* ====== FOTO MÓVIL HERO ====== */
+.hero-foto-mobile {
+  display: none; /* oculto en desktop */
+}
+
+@media (max-width: 768px) {
+  .hero-foto-mobile {
+    display: flex;
+    justify-content: center;
+    margin: 2rem auto 1rem;
+  }
+
+  .hero-foto-mobile img {
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    object-position: center top;
+    border-radius: 50%;
+    border: 2px solid var(--amber);
+    box-shadow: 0 0 30px rgba(200,131,42,0.2);
+    filter: grayscale(10%);
+  }
+}
